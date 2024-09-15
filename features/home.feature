@@ -2,7 +2,7 @@ Feature: Pagina principal Resumen financiero
 
   Background:
     Given Yo ingreso al sitio web
-    When Yo accedo al sistema con usu ario "testuser" y password "testpassword"
+    When Yo accedo al sistema con usuario "testuser" y password "testpassword"
 
   @CP02001
   Scenario: Validar que la pagina redirigida sea el home

@@ -1,0 +1,996 @@
+[
+  {
+    "id": "pagina-principal-resumen-financiero",
+    "uri": "features/home.feature",
+    "keyword": "Feature",
+    "name": "Pagina principal Resumen financiero",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 4,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2616714000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema con usuario \"testuser\" y password \"testpassword\"",
+            "line": 5,
+            "match": {
+              "location": "features/steps/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 816766000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pagina-principal-resumen-financiero;validar-que-la-pagina-redirigida-sea-el-home",
+        "keyword": "Scenario",
+        "name": "Validar que la pagina redirigida sea el home",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "Yo deberia ser redirigido a la pagina de la tabla de gastos",
+            "line": 9,
+            "match": {
+              "location": "features/steps/home_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266875000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP02001",
+            "line": 7
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 273206000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 4,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 313092000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema con usuario \"testuser\" y password \"testpassword\"",
+            "line": 5,
+            "match": {
+              "location": "features/steps/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 520848000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pagina-principal-resumen-financiero;validar-cantidad-de-transacciones-de-la-tabla",
+        "keyword": "Scenario",
+        "name": "Validar cantidad de transacciones de la tabla",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "Yo deberia ver exactamente 6 transacciones en la tabla",
+            "line": 13,
+            "match": {
+              "location": "features/steps/home_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28389000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP02002",
+            "line": 11
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251975000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 4,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 313181000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema con usuario \"testuser\" y password \"testpassword\"",
+            "line": 5,
+            "match": {
+              "location": "features/steps/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 524538000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pagina-principal-resumen-financiero;validar-saldo-total",
+        "keyword": "Scenario",
+        "name": "Validar saldo total",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "Yo deberia ver el saldo total de 350",
+            "line": 17,
+            "match": {
+              "location": "features/steps/home_steps.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66847000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP02003",
+            "line": 15
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 216883000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 4,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284870000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema con usuario \"testuser\" y password \"testpassword\"",
+            "line": 5,
+            "match": {
+              "location": "features/steps/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 524939000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pagina-principal-resumen-financiero;validar-credito-disponible",
+        "keyword": "Scenario",
+        "name": "Validar credito disponible",
+        "description": "",
+        "line": 20,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "Yo deberia ver el credito disponible de \"17,800\"",
+            "line": 21,
+            "match": {
+              "location": "features/steps/home_steps.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31207000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP02004",
+            "line": 19
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 253949000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 4,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 285620000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema con usuario \"testuser\" y password \"testpassword\"",
+            "line": 5,
+            "match": {
+              "location": "features/steps/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 539368000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pagina-principal-resumen-financiero;validar-tipos-de-valores-y-colores;;2",
+        "keyword": "Scenario Outline",
+        "name": "Validar tipos de valores y colores",
+        "description": "",
+        "line": 29,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "Yo deberia validar que todos los valores \"positive\" deben ser de color \"#00ff00\"",
+            "line": 25,
+            "match": {
+              "location": "features/steps/home_steps.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30118737000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP02005",
+            "line": 23
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212958000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 4,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 291158000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema con usuario \"testuser\" y password \"testpassword\"",
+            "line": 5,
+            "match": {
+              "location": "features/steps/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 564626000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pagina-principal-resumen-financiero;validar-tipos-de-valores-y-colores;;3",
+        "keyword": "Scenario Outline",
+        "name": "Validar tipos de valores y colores",
+        "description": "",
+        "line": 30,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "Yo deberia validar que todos los valores \"negative\" deben ser de color \"#ff0000\"",
+            "line": 25,
+            "match": {
+              "location": "features/steps/home_steps.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30086465000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP02005",
+            "line": 23
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234472000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "autenticarse-dentro-del-sistema",
+    "uri": "features/login.feature",
+    "keyword": "Feature",
+    "name": "Autenticarse dentro del sistema",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "autenticarse-dentro-del-sistema;autenticarse-de-manera-exitosa",
+        "keyword": "Scenario",
+        "name": "Autenticarse de manera exitosa",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 5,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 491165000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema con usuario \"testuser\" y password \"testpassword\"",
+            "line": 6,
+            "match": {
+              "location": "features/steps/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 573138000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Yo deberia ver el titulo \"Financial Overview\"",
+            "line": 7,
+            "match": {
+              "location": "features/steps/login_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57605000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP01001",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269214000
+            }
+          }
+        ]
+      },
+      {
+        "id": "autenticarse-dentro-del-sistema;validar-campos-vacios-en-formulario-de-autenticacion",
+        "keyword": "Scenario",
+        "name": "Validar campos vacios en formulario de autenticacion",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 11,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284308000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema sin ingresar ningun dato en los campos",
+            "line": 12,
+            "match": {
+              "location": "features/steps/login_steps.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62445000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Yo deberia ver el mensaje \"Please enter both username and password\"",
+            "line": 13,
+            "match": {
+              "location": "features/steps/login_steps.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33011000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP01002",
+            "line": 9
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235553000
+            }
+          }
+        ]
+      },
+      {
+        "id": "autenticarse-dentro-del-sistema;validar-acceso-si-solo-se-ingresa-el-password",
+        "keyword": "Scenario",
+        "name": "Validar acceso si solo se ingresa el password",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 17,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297706000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema colocando el password \"testpassword\"",
+            "line": 18,
+            "match": {
+              "location": "features/steps/login_steps.rb:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 166835000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Yo deberia ver el mensaje \"Username must be present\"",
+            "line": 19,
+            "match": {
+              "location": "features/steps/login_steps.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31072000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP01003",
+            "line": 15
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257482000
+            }
+          }
+        ]
+      },
+      {
+        "id": "autenticarse-dentro-del-sistema;validar-acceso-si-solo-se-ingresa-el-usuario",
+        "keyword": "Scenario",
+        "name": "Validar acceso si solo se ingresa el usuario",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 23,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 288023000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema colocando el usuario \"testuser\"",
+            "line": 24,
+            "match": {
+              "location": "features/steps/login_steps.rb:32"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined local variable or method `username' for #<Object+Capybara::RSpecMatchers+Capybara::DSLRSpecProxyInstaller+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#<Module:0x000000010e1c8540>+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0xd34> (NameError)\n./features/steps/login_steps.rb:33:in `\"Yo accedo al sistema colocando el usuario {string}\"'\nfeatures/login.feature:24:in `Yo accedo al sistema colocando el usuario \"testuser\"'",
+              "duration": 18694000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Yo deberia encontrar un mensaje con texto \"Password must be present\"",
+            "line": 25,
+            "match": {
+              "location": "features/steps/login_steps.rb:37"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP01004",
+            "line": 21
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250832000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,1 +1,3 @@
-default: "--format pretty --publish-quiet --color"
+default: --format pretty --publish-quiet
+json_report:
+  --format json --out features/reports/report.json

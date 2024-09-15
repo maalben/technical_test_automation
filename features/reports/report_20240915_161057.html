@@ -1,0 +1,1873 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Reporte de Pruebas Automatizadas</title>
+
+  <link rel="icon" href="https://reportbuilder.rajatthareja.com/rb.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection"/>
+  <link href="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.9/css/report.builder.min.css" rel="stylesheet">
+
+  
+</head>
+
+  <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+<header class="indigo lighten-5">
+  <div class="row indigo lighten-1">
+    <div class="col m6 hide-on-small-only">
+      <h5 class="truncate white-text tooltipped" data-tooltip="Reporte de Pruebas Automatizadas">Reporte de Pruebas Automatizadas</h5>
+    </div>
+
+    <div class="col m6 s12 indigo lighten-1">
+      <ul class="tabs indigo lighten-1 row" style="overflow-x: hidden">
+        <li class="tab col s3">
+          <a class="indigo lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a>
+        </li>
+        <li class="tab col s3">
+          <a class="indigo lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a>
+        </li>
+        <li class="tab col s3">
+          <a class="indigo lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a>
+        </li>
+        <li class="tab col s3">
+          <a class="indigo lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Failed Scenarios" href="#errors"><i class="material-icons">bug_report</i> Errors</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+
+    
+
+    
+    
+
+    
+    
+        
+        <div id="g0f0s0" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP01001</div>
+        
+    
+
+    <h5>Autenticarse de manera exitosa (1.391s)</h5>
+    features/login.feature:4
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (0.491s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (0.573s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>And </b> Yo deberia ver el titulo &quot;Financial Overview&quot; (0.058s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s1" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP01002</div>
+        
+    
+
+    <h5>Validar campos vacios en formulario de autenticacion (0.615s)</h5>
+    features/login.feature:10
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (0.284s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema sin ingresar ningun dato en los campos (0.062s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>And </b> Yo deberia ver el mensaje &quot;Please enter both username and password&quot; (0.033s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s2" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP01003</div>
+        
+    
+
+    <h5>Validar acceso si solo se ingresa el password (0.753s)</h5>
+    features/login.feature:16
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (0.298s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema colocando el password &quot;testpassword&quot; (0.167s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>And </b> Yo deberia ver el mensaje &quot;Username must be present&quot; (0.031s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f0s3" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP01004</div>
+        
+    
+
+    <h5>Validar acceso si solo se ingresa el usuario (0.558s)</h5>
+    features/login.feature:22
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (0.288s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step failed">
+  
+
+  <b>When </b> Yo accedo al sistema colocando el usuario &quot;testuser&quot; (0.019s)
+
+  
+
+  
+
+  
+  
+  
+
+
+    
+    
+    
+    <pre>undefined local variable or method `username&#39; for #&lt;Object+Capybara::RSpecMatchers+Capybara::DSLRSpecProxyInstaller+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#&lt;Module:0x000000010e1c8540&gt;+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0xd34&gt; (NameError)
+./features/steps/login_steps.rb:33:in `&quot;Yo accedo al sistema colocando el usuario {string}&quot;&#39;
+features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;testuser&quot;&#39;</pre>
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step skipped">
+  
+
+  <b>And </b> Yo deberia encontrar un mensaje con texto &quot;Password must be present&quot; (0.000s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+
+    
+        
+        <div id="g0f1s0" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02001</div>
+        
+    
+
+    <h5>Validar que la pagina redirigida sea el home (3.974s)</h5>
+    features/home.feature:8
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (Background) (2.617s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.817s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> Yo deberia ser redirigido a la pagina de la tabla de gastos (0.267s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s1" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02002</div>
+        
+    
+
+    <h5>Validar cantidad de transacciones de la tabla (1.114s)</h5>
+    features/home.feature:12
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (Background) (0.313s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.521s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> Yo deberia ver exactamente 6 transacciones en la tabla (0.028s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s2" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02003</div>
+        
+    
+
+    <h5>Validar saldo total (1.122s)</h5>
+    features/home.feature:16
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (Background) (0.313s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.525s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> Yo deberia ver el saldo total de 350 (0.067s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s3" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02004</div>
+        
+    
+
+    <h5>Validar credito disponible (1.095s)</h5>
+    features/home.feature:20
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (Background) (0.285s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.525s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> Yo deberia ver el credito disponible de &quot;17,800&quot; (0.031s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s4" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02005</div>
+        
+    
+
+    <h5>Validar tipos de valores y colores (31.157s)</h5>
+    features/home.feature:29
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (Background) (0.286s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.539s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo deberia validar que todos los valores &quot;positive&quot; deben ser de color &quot;#00ff00&quot; (30.119s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s5" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02005</div>
+        
+    
+
+    <h5>Validar tipos de valores y colores (31.177s)</h5>
+    features/home.feature:30
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (Background) (0.291s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.565s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo deberia validar que todos los valores &quot;negative&quot; deben ser de color &quot;#ff0000&quot; (30.086s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        
+        $('#g0f0s0').modal();
+        
+        $('#g0f0s1').modal();
+        
+        $('#g0f0s2').modal();
+        
+        $('#g0f0s3').modal();
+        
+        $('#g0f0s4').modal();
+        
+        $('#g0f1s0').modal();
+        
+        $('#g0f1s1').modal();
+        
+        $('#g0f1s2').modal();
+        
+        $('#g0f1s3').modal();
+        
+        $('#g0f1s4').modal();
+        
+        $('#g0f1s5').modal();
+        
+        $('#g0f1s6').modal();
+        
+    });
+</script>
+
+
+    <main class="indigo lighten-5">
+      <div class="row">
+
+        <div id="overview" class="col s12 indigo lighten-5">
+          <div class="row">
+  <div class="col m4 s12">
+    <canvas id="featuresDoughnut" width="400" height="400"></canvas>
+    <table id="metaDataFeatures" class="bordered">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col m4 s12">
+    <canvas id="scenariosDoughnut" width="400" height="400"></canvas>
+    <table id="metaDataScenarios" class="bordered">
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="col m4 s12">
+    <table id="metaData" class="bordered">
+      <tbody>
+      <tr><th>Total Time</th><td>1m 12.96s</td></tr>
+      
+          <tr>
+            <th>Project Name</th>
+            <td>Test API</td>
+          </tr>
+      
+          <tr>
+            <th>Report Generated</th>
+            <td>2024-09-15 16:10:57 -0500</td>
+          </tr>
+      
+      </tbody>
+    </table>
+  </div>
+</div>
+
+        </div>
+
+        <div id="features" class="col s12 indigo lighten-5 white-text">
+          <ul class="featureList collapsible popout" data-collapsible="expandable">
+  
+      
+      <li class="feature broken">
+  <div class="collapsible-header indigo lighten-1 waves-effect waves-light">
+    <i class="material-icons">featured_play_list</i>
+    <b>Feature</b>&nbsp;Autenticarse dentro del sistema&nbsp;(3.317s)
+  </div>
+
+  <div class="collapsible-body indigo lighten-4">
+    <div class="collection scenarioList indigo">
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s0">
+          <b>Scenario</b> Autenticarse de manera exitosa&nbsp;(1.391s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s1">
+          <b>Scenario</b> Validar campos vacios en formulario de autenticacion&nbsp;(0.615s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s2">
+          <b>Scenario</b> Validar acceso si solo se ingresa el password&nbsp;(0.753s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text failed" href="#g0f0s3">
+          <b>Scenario</b> Validar acceso si solo se ingresa el usuario&nbsp;(0.558s)
+        </a>
+      
+    </div>
+  </div>
+</li>
+
+  
+      
+      <li class="feature working">
+  <div class="collapsible-header indigo lighten-1 waves-effect waves-light">
+    <i class="material-icons">featured_play_list</i>
+    <b>Feature</b>&nbsp;Pagina principal Resumen financiero&nbsp;(1m 9.64s)
+  </div>
+
+  <div class="collapsible-body indigo lighten-4">
+    <div class="collection scenarioList indigo">
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s0">
+          <b>Scenario</b> Validar que la pagina redirigida sea el home&nbsp;(3.974s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s1">
+          <b>Scenario</b> Validar cantidad de transacciones de la tabla&nbsp;(1.114s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s2">
+          <b>Scenario</b> Validar saldo total&nbsp;(1.122s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s3">
+          <b>Scenario</b> Validar credito disponible&nbsp;(1.095s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s4">
+          <b>Scenario Outline</b> Validar tipos de valores y colores&nbsp;(31.157s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s5">
+          <b>Scenario Outline</b> Validar tipos de valores y colores&nbsp;(31.177s)
+        </a>
+      
+    </div>
+  </div>
+</li>
+
+  
+</ul>
+
+        </div>
+
+        <div id="summary" class="col s12 indigo lighten-5">
+          <table id="summaryTable" class="bordered indigo lighten-1 white-text" width="100%">
+  <thead>
+  <tr>
+    <th class="hide-on-small-only">Feature</th>
+    <th>Scenario</th>
+    <th class="hide">Tags</th>
+    <th>Status</th>
+
+
+    
+
+    <th class="hide-on-small-only">Error</th>
+  </tr>
+  </thead>
+  <tbody>
+  
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Autenticarse dentro del sistema
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s0">
+  Autenticarse de manera exitosa
+</td>
+
+<td class="hide">
+  
+      
+          @CP01001. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Autenticarse dentro del sistema
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s1">
+  Validar campos vacios en formulario de autenticacion
+</td>
+
+<td class="hide">
+  
+      
+          @CP01002. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Autenticarse dentro del sistema
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s2">
+  Validar acceso si solo se ingresa el password
+</td>
+
+<td class="hide">
+  
+      
+          @CP01003. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="failed">
+            <td class="hide-on-small-only">
+  Autenticarse dentro del sistema
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s3">
+  Validar acceso si solo se ingresa el usuario
+</td>
+
+<td class="hide">
+  
+      
+          @CP01004. 
+      
+  
+</td>
+
+<td class="uppercase">
+  failed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+      undefined local variable or method `username&#39; for #&lt;Object+Capybara::RSpecMatchers+Capybara::DSLRSpecProxyInstaller+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#&lt;Module:0x000000010e1c8540&gt;+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0xd34&gt; (NameError)
+  
+</td>
+
+          </tr>
+      
+  
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Pagina principal Resumen financiero
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s0">
+  Validar que la pagina redirigida sea el home
+</td>
+
+<td class="hide">
+  
+      
+          @CP02001. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Pagina principal Resumen financiero
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s1">
+  Validar cantidad de transacciones de la tabla
+</td>
+
+<td class="hide">
+  
+      
+          @CP02002. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Pagina principal Resumen financiero
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s2">
+  Validar saldo total
+</td>
+
+<td class="hide">
+  
+      
+          @CP02003. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Pagina principal Resumen financiero
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s3">
+  Validar credito disponible
+</td>
+
+<td class="hide">
+  
+      
+          @CP02004. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Pagina principal Resumen financiero
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s4">
+  Validar tipos de valores y colores
+</td>
+
+<td class="hide">
+  
+      
+          @CP02005. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Pagina principal Resumen financiero
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s5">
+  Validar tipos de valores y colores
+</td>
+
+<td class="hide">
+  
+      
+          @CP02005. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+  
+  </tbody>
+</table>
+
+        </div>
+
+        <div id="errors" class="col s12 indigo lighten-5">
+          <ul class="errorList collapsible popout" data-collapsible="expandable">
+  
+      <li class="error">
+  <div class="collapsible-header red lighten-2 white-text waves-effect waves-light">
+    <i class="material-icons">bug_report</i>undefined local variable or method `username&#39; for #&lt;Object+Capybara::RSpecMatchers+Capybara::DSLRSpecProxyInstaller+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#&lt;Module:0x000000010e1c8540&gt;+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0xd34&gt; (NameError)
+  </div>
+
+  <div class="collapsible-body indigo lighten-4">
+    <div class="collection failedScenarioList">
+      
+          
+              
+          
+              
+          
+              
+          
+              
+                  
+                      <a class="collection-item failedScenario indigo lighten-5 red-text modal-trigger waves-effect waves-light" href="#g0f0s3">
+                        <i class="material-icons">highlight_off</i>&nbsp;Validar acceso si solo se ingresa el usuario
+                      </a>
+                  
+              
+          
+      
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+      
+    </div>
+  </div>
+</li>
+
+  
+</ul>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer indigo lighten-4">
+  <div class="footer-copyright indigo lighten-1">
+    <div class="container">
+      Happy Reporting!
+      <a class="white-text text-lighten-4 right" href="https://reportbuilder.rajatthareja.com">Generated by Report Builder</a>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.rawgit.com/rajatthareja/ReportBuilder/v1.9/js/report.builder.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
