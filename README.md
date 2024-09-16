@@ -8,12 +8,12 @@ Ejercicio de automatización desarrollado en el lenguaje Ruby on Rails con estru
 - Estructura de proyecto similar a Page Object Model (POM).
 - Se utilizan las siguientes librerías para su ejecución:
 
-  	gem 'rspec'
-  	gem 'cucumber'
-  	gem 'capybara'
-  	gem 'site_prism'
-  	gem 'selenium-webdriver'
-  	gem 'report_builder'
+		spec
+		cucumber
+		capybara
+		site_prism
+		selenium-webdriver
+		report_builder
 
 Esta ya se encuentran en el archivo Gemfile.
 
