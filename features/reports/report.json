@@ -23,7 +23,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2616714000
+              "duration": 4569381000
             }
           },
           {
@@ -35,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 816766000
+              "duration": 1156108000
             }
           }
         ],
@@ -46,7 +46,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31000
+              "duration": 43000
             }
           },
           {
@@ -55,7 +55,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23000
+              "duration": 29000
             }
           },
           {
@@ -64,7 +64,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12000
+              "duration": 15000
             }
           }
         ]
@@ -86,7 +86,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 266875000
+              "duration": 284421000
             }
           }
         ],
@@ -103,7 +103,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 273206000
+              "duration": 243078000
             }
           }
         ]
@@ -124,7 +124,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 313092000
+              "duration": 291313000
             }
           },
           {
@@ -136,7 +136,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 520848000
+              "duration": 565009000
             }
           }
         ],
@@ -147,7 +147,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22000
+              "duration": 23000
             }
           },
           {
@@ -156,7 +156,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25000
+              "duration": 19000
             }
           },
           {
@@ -187,7 +187,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28389000
+              "duration": 29132000
             }
           }
         ],
@@ -204,7 +204,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 251975000
+              "duration": 241984000
             }
           }
         ]
@@ -225,7 +225,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 313181000
+              "duration": 296281000
             }
           },
           {
@@ -237,7 +237,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 524538000
+              "duration": 590333000
             }
           }
         ],
@@ -248,7 +248,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23000
+              "duration": 29000
             }
           },
           {
@@ -257,7 +257,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28000
+              "duration": 31000
             }
           },
           {
@@ -266,7 +266,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8000
+              "duration": 9000
             }
           }
         ]
@@ -288,7 +288,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 66847000
+              "duration": 68100000
             }
           }
         ],
@@ -305,7 +305,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 216883000
+              "duration": 236488000
             }
           }
         ]
@@ -326,7 +326,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 284870000
+              "duration": 277890000
             }
           },
           {
@@ -338,7 +338,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 524939000
+              "duration": 630788000
             }
           }
         ],
@@ -358,7 +358,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25000
+              "duration": 21000
             }
           },
           {
@@ -367,7 +367,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14000
+              "duration": 9000
             }
           }
         ]
@@ -389,7 +389,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31207000
+              "duration": 35227000
             }
           }
         ],
@@ -406,7 +406,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 253949000
+              "duration": 261571000
             }
           }
         ]
@@ -427,7 +427,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 285620000
+              "duration": 286357000
             }
           },
           {
@@ -439,7 +439,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 539368000
+              "duration": 593311000
             }
           }
         ],
@@ -450,7 +450,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24000
+              "duration": 30000
             }
           },
           {
@@ -459,7 +459,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27000
+              "duration": 26000
             }
           },
           {
@@ -468,7 +468,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10000
+              "duration": 9000
             }
           }
         ]
@@ -478,7 +478,7 @@
         "keyword": "Scenario Outline",
         "name": "Validar tipos de valores y colores",
         "description": "",
-        "line": 29,
+        "line": 28,
         "type": "scenario",
         "steps": [
           {
@@ -490,7 +490,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30118737000
+              "duration": 30128745000
             }
           }
         ],
@@ -507,7 +507,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 212958000
+              "duration": 276696000
             }
           }
         ]
@@ -528,7 +528,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 291158000
+              "duration": 336332000
             }
           },
           {
@@ -540,7 +540,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 564626000
+              "duration": 653582000
             }
           }
         ],
@@ -551,7 +551,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24000
+              "duration": 37000
             }
           },
           {
@@ -560,7 +560,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22000
+              "duration": 27000
             }
           },
           {
@@ -579,7 +579,7 @@
         "keyword": "Scenario Outline",
         "name": "Validar tipos de valores y colores",
         "description": "",
-        "line": 30,
+        "line": 29,
         "type": "scenario",
         "steps": [
           {
@@ -591,7 +591,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30086465000
+              "duration": 30176478000
             }
           }
         ],
@@ -608,7 +608,209 @@
             },
             "result": {
               "status": "passed",
-              "duration": 234472000
+              "duration": 274721000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 4,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 493633000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema con usuario \"testuser\" y password \"testpassword\"",
+            "line": 5,
+            "match": {
+              "location": "features/steps/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 580532000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pagina-principal-resumen-financiero;validar-monto-mas-alto",
+        "keyword": "Scenario",
+        "name": "Validar monto mas alto",
+        "description": "",
+        "line": 32,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "Yo deberia ver que el monto mas alto es \"1,250.00\"",
+            "line": 33,
+            "match": {
+              "location": "features/steps/home_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192199000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP02006",
+            "line": 31
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270579000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 4,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 294253000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema con usuario \"testuser\" y password \"testpassword\"",
+            "line": 5,
+            "match": {
+              "location": "features/steps/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 732911000
+            }
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000
+            }
+          }
+        ]
+      },
+      {
+        "id": "pagina-principal-resumen-financiero;validar-monto-mas-bajo",
+        "keyword": "Scenario",
+        "name": "Validar monto mas bajo",
+        "description": "",
+        "line": 36,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "name": "Yo deberia ver que el monto mas bajo es \"- 320.00\"",
+            "line": 37,
+            "match": {
+              "location": "features/steps/home_steps.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 303427000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP02007",
+            "line": 35
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 255241000
             }
           }
         ]
@@ -640,7 +842,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 491165000
+              "duration": 293280000
             }
           },
           {
@@ -652,7 +854,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 573138000
+              "duration": 850819000
             }
           },
           {
@@ -664,7 +866,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 57605000
+              "duration": 38522000
             }
           }
         ],
@@ -681,7 +883,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24000
+              "duration": 23000
             }
           },
           {
@@ -690,7 +892,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21000
+              "duration": 20000
             }
           },
           {
@@ -710,7 +912,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 269214000
+              "duration": 256066000
             }
           }
         ]
@@ -732,7 +934,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 284308000
+              "duration": 274962000
             }
           },
           {
@@ -744,7 +946,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 62445000
+              "duration": 54889000
             }
           },
           {
@@ -756,7 +958,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33011000
+              "duration": 30812000
             }
           }
         ],
@@ -782,7 +984,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 33000
+              "duration": 20000
             }
           },
           {
@@ -791,7 +993,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10000
+              "duration": 8000
             }
           }
         ],
@@ -802,7 +1004,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 235553000
+              "duration": 229102000
             }
           }
         ]
@@ -824,7 +1026,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 297706000
+              "duration": 289907000
             }
           },
           {
@@ -836,7 +1038,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 166835000
+              "duration": 149692000
             }
           },
           {
@@ -848,7 +1050,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31072000
+              "duration": 30651000
             }
           }
         ],
@@ -874,7 +1076,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22000
+              "duration": 31000
             }
           },
           {
@@ -894,7 +1096,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 257482000
+              "duration": 223774000
             }
           }
         ]
@@ -916,7 +1118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 288023000
+              "duration": 288185000
             }
           },
           {
@@ -928,8 +1130,8 @@
             },
             "result": {
               "status": "failed",
-              "error_message": "undefined local variable or method `username' for #<Object+Capybara::RSpecMatchers+Capybara::DSLRSpecProxyInstaller+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#<Module:0x000000010e1c8540>+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0xd34> (NameError)\n./features/steps/login_steps.rb:33:in `\"Yo accedo al sistema colocando el usuario {string}\"'\nfeatures/login.feature:24:in `Yo accedo al sistema colocando el usuario \"testuser\"'",
-              "duration": 18694000
+              "error_message": "undefined local variable or method `username' for #<Object+Capybara::RSpecMatchers+Capybara::DSLRSpecProxyInstaller+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#<Module:0x000000010cb37ee8>+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0xd34> (NameError)\n./features/steps/login_steps.rb:33:in `\"Yo accedo al sistema colocando el usuario {string}\"'\nfeatures/login.feature:24:in `Yo accedo al sistema colocando el usuario \"testuser\"'",
+              "duration": 21991000
             }
           },
           {
@@ -957,7 +1159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21000
+              "duration": 27000
             }
           },
           {
@@ -966,7 +1168,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21000
+              "duration": 23000
             }
           },
           {
@@ -986,7 +1188,100 @@
             },
             "result": {
               "status": "passed",
-              "duration": 250832000
+              "duration": 242162000
+            }
+          }
+        ]
+      },
+      {
+        "id": "autenticarse-dentro-del-sistema;validar-contraseña-incorrecta",
+        "keyword": "Scenario",
+        "name": "Validar contraseña incorrecta",
+        "description": "",
+        "line": 28,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Yo ingreso al sitio web",
+            "line": 29,
+            "match": {
+              "location": "features/steps/login_steps.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 285591000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "Yo accedo al sistema con usuario \"testuser\" y password \"testuser\"",
+            "line": 30,
+            "match": {
+              "location": "features/steps/login_steps.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 549377000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Yo deberia ver el mensaje \"Wrong username or password\"",
+            "line": 31,
+            "match": {
+              "location": "features/steps/login_steps.rb:22"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Unable to find css \".alert-warning\" (Capybara::ElementNotFound)\n./features/steps/login_steps.rb:23:in `\"Yo deberia ver el mensaje {string}\"'\nfeatures/login.feature:31:in `Yo deberia ver el mensaje \"Wrong username or password\"'",
+              "duration": 5016581000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CP01005",
+            "line": 27
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 276741000
             }
           }
         ]

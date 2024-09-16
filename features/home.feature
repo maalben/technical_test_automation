@@ -23,8 +23,15 @@ Feature: Pagina principal Resumen financiero
   @CP02005
   Scenario Outline: Validar tipos de valores y colores
     When Yo deberia validar que todos los valores "<value_type>" deben ser de color "<color>"
-
     Examples:
       | value_type | color   |
       | positive   | #00ff00 |
       | negative   | #ff0000 |
+
+  @CP02006
+  Scenario: Validar monto mas alto
+    Then Yo deberia ver que el monto mas alto es "1,250.00"
+
+  @CP02007
+  Scenario: Validar monto mas bajo
+    Then Yo deberia ver que el monto mas bajo es "- 320.00"

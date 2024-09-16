@@ -64,7 +64,7 @@
         
     
 
-    <h5>Autenticarse de manera exitosa (1.391s)</h5>
+    <h5>Autenticarse de manera exitosa (1.439s)</h5>
     features/login.feature:4
 
     
@@ -97,7 +97,7 @@
           <li class="collection-item step passed">
   
 
-  <b>Given </b> Yo ingreso al sitio web (0.491s)
+  <b>Given </b> Yo ingreso al sitio web (0.293s)
 
   
 
@@ -119,7 +119,7 @@
           <li class="collection-item step passed">
   
 
-  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (0.573s)
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (0.851s)
 
   
 
@@ -141,7 +141,7 @@
           <li class="collection-item step passed">
   
 
-  <b>And </b> Yo deberia ver el titulo &quot;Financial Overview&quot; (0.058s)
+  <b>And </b> Yo deberia ver el titulo &quot;Financial Overview&quot; (0.039s)
 
   
 
@@ -190,7 +190,7 @@
         
     
 
-    <h5>Validar campos vacios en formulario de autenticacion (0.615s)</h5>
+    <h5>Validar campos vacios en formulario de autenticacion (0.590s)</h5>
     features/login.feature:10
 
     
@@ -223,7 +223,7 @@
           <li class="collection-item step passed">
   
 
-  <b>Given </b> Yo ingreso al sitio web (0.284s)
+  <b>Given </b> Yo ingreso al sitio web (0.275s)
 
   
 
@@ -245,7 +245,7 @@
           <li class="collection-item step passed">
   
 
-  <b>When </b> Yo accedo al sistema sin ingresar ningun dato en los campos (0.062s)
+  <b>When </b> Yo accedo al sistema sin ingresar ningun dato en los campos (0.055s)
 
   
 
@@ -267,7 +267,7 @@
           <li class="collection-item step passed">
   
 
-  <b>And </b> Yo deberia ver el mensaje &quot;Please enter both username and password&quot; (0.033s)
+  <b>And </b> Yo deberia ver el mensaje &quot;Please enter both username and password&quot; (0.031s)
 
   
 
@@ -316,7 +316,7 @@
         
     
 
-    <h5>Validar acceso si solo se ingresa el password (0.753s)</h5>
+    <h5>Validar acceso si solo se ingresa el password (0.694s)</h5>
     features/login.feature:16
 
     
@@ -349,7 +349,7 @@
           <li class="collection-item step passed">
   
 
-  <b>Given </b> Yo ingreso al sitio web (0.298s)
+  <b>Given </b> Yo ingreso al sitio web (0.290s)
 
   
 
@@ -371,7 +371,7 @@
           <li class="collection-item step passed">
   
 
-  <b>When </b> Yo accedo al sistema colocando el password &quot;testpassword&quot; (0.167s)
+  <b>When </b> Yo accedo al sistema colocando el password &quot;testpassword&quot; (0.150s)
 
   
 
@@ -442,7 +442,7 @@
         
     
 
-    <h5>Validar acceso si solo se ingresa el usuario (0.558s)</h5>
+    <h5>Validar acceso si solo se ingresa el usuario (0.552s)</h5>
     features/login.feature:22
 
     
@@ -497,7 +497,7 @@
           <li class="collection-item step failed">
   
 
-  <b>When </b> Yo accedo al sistema colocando el usuario &quot;testuser&quot; (0.019s)
+  <b>When </b> Yo accedo al sistema colocando el usuario &quot;testuser&quot; (0.022s)
 
   
 
@@ -511,7 +511,7 @@
     
     
     
-    <pre>undefined local variable or method `username&#39; for #&lt;Object+Capybara::RSpecMatchers+Capybara::DSLRSpecProxyInstaller+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#&lt;Module:0x000000010e1c8540&gt;+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0xd34&gt; (NameError)
+    <pre>undefined local variable or method `username&#39; for #&lt;Object+Capybara::RSpecMatchers+Capybara::DSLRSpecProxyInstaller+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#&lt;Module:0x000000010cb37ee8&gt;+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0xd34&gt; (NameError)
 ./features/steps/login_steps.rb:33:in `&quot;Yo accedo al sistema colocando el usuario {string}&quot;&#39;
 features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;testuser&quot;&#39;</pre>
 
@@ -565,6 +565,139 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
 </div>
 
     
+        
+        <div id="g0f0s4" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP01005</div>
+        
+    
+
+    <h5>Validar contraseña incorrecta (6.128s)</h5>
+    features/login.feature:28
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (0.286s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testuser&quot; (0.549s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step failed">
+  
+
+  <b>And </b> Yo deberia ver el mensaje &quot;Wrong username or password&quot; (5.017s)
+
+  
+
+  
+
+  
+  
+  
+
+
+    
+    
+    
+    <pre>Unable to find css &quot;.alert-warning&quot; (Capybara::ElementNotFound)
+./features/steps/login_steps.rb:23:in `&quot;Yo deberia ver el mensaje {string}&quot;&#39;
+features/login.feature:31:in `Yo deberia ver el mensaje &quot;Wrong username or password&quot;&#39;</pre>
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
 
     
         
@@ -577,7 +710,7 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
         
     
 
-    <h5>Validar que la pagina redirigida sea el home (3.974s)</h5>
+    <h5>Validar que la pagina redirigida sea el home (6.253s)</h5>
     features/home.feature:8
 
     
@@ -610,7 +743,7 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
           <li class="collection-item step passed">
   
 
-  <b>Given </b> Yo ingreso al sitio web (Background) (2.617s)
+  <b>Given </b> Yo ingreso al sitio web (Background) (4.569s)
 
   
 
@@ -632,7 +765,7 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
           <li class="collection-item step passed">
   
 
-  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.817s)
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (1.156s)
 
   
 
@@ -654,7 +787,7 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
           <li class="collection-item step passed">
   
 
-  <b>Then </b> Yo deberia ser redirigido a la pagina de la tabla de gastos (0.267s)
+  <b>Then </b> Yo deberia ser redirigido a la pagina de la tabla de gastos (0.284s)
 
   
 
@@ -703,512 +836,8 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
         
     
 
-    <h5>Validar cantidad de transacciones de la tabla (1.114s)</h5>
+    <h5>Validar cantidad de transacciones de la tabla (1.127s)</h5>
     features/home.feature:12
-
-    
-        
-            
-
-
-
-
-
-        
-            
-
-
-
-
-
-        
-            
-
-
-
-
-
-        
-    
-
-    <ul class="collection stepList">
-      
-          <li class="collection-item step passed">
-  
-
-  <b>Given </b> Yo ingreso al sitio web (Background) (0.313s)
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-</li>
-
-      
-          <li class="collection-item step passed">
-  
-
-  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.521s)
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-</li>
-
-      
-          <li class="collection-item step passed">
-  
-
-  <b>Then </b> Yo deberia ver exactamente 6 transacciones en la tabla (0.028s)
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-</li>
-
-      
-    </ul>
-
-    
-        
-            
-
-
-
-
-
-        
-    
-  </div>
-
-  <div class="modal-footer">
-    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
-  </div>
-</div>
-
-    
-        
-        <div id="g0f1s2" class="modal modal-fixed-footer">
-  <div class="modal-content">
-
-    
-        
-            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02003</div>
-        
-    
-
-    <h5>Validar saldo total (1.122s)</h5>
-    features/home.feature:16
-
-    
-        
-            
-
-
-
-
-
-        
-            
-
-
-
-
-
-        
-            
-
-
-
-
-
-        
-    
-
-    <ul class="collection stepList">
-      
-          <li class="collection-item step passed">
-  
-
-  <b>Given </b> Yo ingreso al sitio web (Background) (0.313s)
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-</li>
-
-      
-          <li class="collection-item step passed">
-  
-
-  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.525s)
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-</li>
-
-      
-          <li class="collection-item step passed">
-  
-
-  <b>Then </b> Yo deberia ver el saldo total de 350 (0.067s)
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-</li>
-
-      
-    </ul>
-
-    
-        
-            
-
-
-
-
-
-        
-    
-  </div>
-
-  <div class="modal-footer">
-    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
-  </div>
-</div>
-
-    
-        
-        <div id="g0f1s3" class="modal modal-fixed-footer">
-  <div class="modal-content">
-
-    
-        
-            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02004</div>
-        
-    
-
-    <h5>Validar credito disponible (1.095s)</h5>
-    features/home.feature:20
-
-    
-        
-            
-
-
-
-
-
-        
-            
-
-
-
-
-
-        
-            
-
-
-
-
-
-        
-    
-
-    <ul class="collection stepList">
-      
-          <li class="collection-item step passed">
-  
-
-  <b>Given </b> Yo ingreso al sitio web (Background) (0.285s)
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-</li>
-
-      
-          <li class="collection-item step passed">
-  
-
-  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.525s)
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-</li>
-
-      
-          <li class="collection-item step passed">
-  
-
-  <b>Then </b> Yo deberia ver el credito disponible de &quot;17,800&quot; (0.031s)
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-</li>
-
-      
-    </ul>
-
-    
-        
-            
-
-
-
-
-
-        
-    
-  </div>
-
-  <div class="modal-footer">
-    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
-  </div>
-</div>
-
-    
-        
-        <div id="g0f1s4" class="modal modal-fixed-footer">
-  <div class="modal-content">
-
-    
-        
-            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02005</div>
-        
-    
-
-    <h5>Validar tipos de valores y colores (31.157s)</h5>
-    features/home.feature:29
-
-    
-        
-            
-
-
-
-
-
-        
-            
-
-
-
-
-
-        
-            
-
-
-
-
-
-        
-    
-
-    <ul class="collection stepList">
-      
-          <li class="collection-item step passed">
-  
-
-  <b>Given </b> Yo ingreso al sitio web (Background) (0.286s)
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-</li>
-
-      
-          <li class="collection-item step passed">
-  
-
-  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.539s)
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-</li>
-
-      
-          <li class="collection-item step passed">
-  
-
-  <b>When </b> Yo deberia validar que todos los valores &quot;positive&quot; deben ser de color &quot;#00ff00&quot; (30.119s)
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-
-  
-</li>
-
-      
-    </ul>
-
-    
-        
-            
-
-
-
-
-
-        
-    
-  </div>
-
-  <div class="modal-footer">
-    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
-  </div>
-</div>
-
-    
-        
-        <div id="g0f1s5" class="modal modal-fixed-footer">
-  <div class="modal-content">
-
-    
-        
-            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02005</div>
-        
-    
-
-    <h5>Validar tipos de valores y colores (31.177s)</h5>
-    features/home.feature:30
 
     
         
@@ -1284,7 +913,763 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
           <li class="collection-item step passed">
   
 
-  <b>When </b> Yo deberia validar que todos los valores &quot;negative&quot; deben ser de color &quot;#ff0000&quot; (30.086s)
+  <b>Then </b> Yo deberia ver exactamente 6 transacciones en la tabla (0.029s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s2" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02003</div>
+        
+    
+
+    <h5>Validar saldo total (1.191s)</h5>
+    features/home.feature:16
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (Background) (0.296s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.590s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> Yo deberia ver el saldo total de 350 (0.068s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s3" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02004</div>
+        
+    
+
+    <h5>Validar credito disponible (1.206s)</h5>
+    features/home.feature:20
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (Background) (0.278s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.631s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> Yo deberia ver el credito disponible de &quot;17,800&quot; (0.035s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s4" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02005</div>
+        
+    
+
+    <h5>Validar tipos de valores y colores (31.285s)</h5>
+    features/home.feature:28
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (Background) (0.286s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.593s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo deberia validar que todos los valores &quot;positive&quot; deben ser de color &quot;#00ff00&quot; (30.129s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s5" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02005</div>
+        
+    
+
+    <h5>Validar tipos de valores y colores (31.441s)</h5>
+    features/home.feature:29
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (Background) (0.336s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.654s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo deberia validar que todos los valores &quot;negative&quot; deben ser de color &quot;#ff0000&quot; (30.176s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s6" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02006</div>
+        
+    
+
+    <h5>Validar monto mas alto (1.537s)</h5>
+    features/home.feature:32
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (Background) (0.494s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.581s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> Yo deberia ver que el monto mas alto es &quot;1,250.00&quot; (0.192s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+    </ul>
+
+    
+        
+            
+
+
+
+
+
+        
+    
+  </div>
+
+  <div class="modal-footer">
+    <span class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></span>
+  </div>
+</div>
+
+    
+        
+        <div id="g0f1s7" class="modal modal-fixed-footer">
+  <div class="modal-content">
+
+    
+        
+            <div class="chip"><i class="material-icons rotate-45">label</i>@CP02007</div>
+        
+    
+
+    <h5>Validar monto mas bajo (1.586s)</h5>
+    features/home.feature:36
+
+    
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+            
+
+
+
+
+
+        
+    
+
+    <ul class="collection stepList">
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Given </b> Yo ingreso al sitio web (Background) (0.294s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>When </b> Yo accedo al sistema con usuario &quot;testuser&quot; y password &quot;testpassword&quot; (Background) (0.733s)
+
+  
+
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+</li>
+
+      
+          <li class="collection-item step passed">
+  
+
+  <b>Then </b> Yo deberia ver que el monto mas bajo es &quot;- 320.00&quot; (0.303s)
 
   
 
@@ -1338,6 +1723,8 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
         
         $('#g0f0s4').modal();
         
+        $('#g0f0s5').modal();
+        
         $('#g0f1s0').modal();
         
         $('#g0f1s1').modal();
@@ -1351,6 +1738,10 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
         $('#g0f1s5').modal();
         
         $('#g0f1s6').modal();
+        
+        $('#g0f1s7').modal();
+        
+        $('#g0f1s8').modal();
         
     });
 </script>
@@ -1378,7 +1769,7 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
   <div class="col m4 s12">
     <table id="metaData" class="bordered">
       <tbody>
-      <tr><th>Total Time</th><td>1m 12.96s</td></tr>
+      <tr><th>Total Time</th><td>1m 25.03s</td></tr>
       
           <tr>
             <th>Project Name</th>
@@ -1387,7 +1778,7 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
       
           <tr>
             <th>Report Generated</th>
-            <td>2024-09-15 16:10:57 -0500</td>
+            <td>2024-09-15 19:37:24 -0500</td>
           </tr>
       
       </tbody>
@@ -1404,26 +1795,30 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
       <li class="feature broken">
   <div class="collapsible-header indigo lighten-1 waves-effect waves-light">
     <i class="material-icons">featured_play_list</i>
-    <b>Feature</b>&nbsp;Autenticarse dentro del sistema&nbsp;(3.317s)
+    <b>Feature</b>&nbsp;Autenticarse dentro del sistema&nbsp;(9.403s)
   </div>
 
   <div class="collapsible-body indigo lighten-4">
     <div class="collection scenarioList indigo">
       
         <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s0">
-          <b>Scenario</b> Autenticarse de manera exitosa&nbsp;(1.391s)
+          <b>Scenario</b> Autenticarse de manera exitosa&nbsp;(1.439s)
         </a>
       
         <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s1">
-          <b>Scenario</b> Validar campos vacios en formulario de autenticacion&nbsp;(0.615s)
+          <b>Scenario</b> Validar campos vacios en formulario de autenticacion&nbsp;(0.590s)
         </a>
       
         <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f0s2">
-          <b>Scenario</b> Validar acceso si solo se ingresa el password&nbsp;(0.753s)
+          <b>Scenario</b> Validar acceso si solo se ingresa el password&nbsp;(0.694s)
         </a>
       
         <a class="collection-item scenario modal-trigger waves-effect waves-light white-text failed" href="#g0f0s3">
-          <b>Scenario</b> Validar acceso si solo se ingresa el usuario&nbsp;(0.558s)
+          <b>Scenario</b> Validar acceso si solo se ingresa el usuario&nbsp;(0.552s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text failed" href="#g0f0s4">
+          <b>Scenario</b> Validar contraseña incorrecta&nbsp;(6.128s)
         </a>
       
     </div>
@@ -1435,34 +1830,42 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
       <li class="feature working">
   <div class="collapsible-header indigo lighten-1 waves-effect waves-light">
     <i class="material-icons">featured_play_list</i>
-    <b>Feature</b>&nbsp;Pagina principal Resumen financiero&nbsp;(1m 9.64s)
+    <b>Feature</b>&nbsp;Pagina principal Resumen financiero&nbsp;(1m 15.63s)
   </div>
 
   <div class="collapsible-body indigo lighten-4">
     <div class="collection scenarioList indigo">
       
         <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s0">
-          <b>Scenario</b> Validar que la pagina redirigida sea el home&nbsp;(3.974s)
+          <b>Scenario</b> Validar que la pagina redirigida sea el home&nbsp;(6.253s)
         </a>
       
         <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s1">
-          <b>Scenario</b> Validar cantidad de transacciones de la tabla&nbsp;(1.114s)
+          <b>Scenario</b> Validar cantidad de transacciones de la tabla&nbsp;(1.127s)
         </a>
       
         <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s2">
-          <b>Scenario</b> Validar saldo total&nbsp;(1.122s)
+          <b>Scenario</b> Validar saldo total&nbsp;(1.191s)
         </a>
       
         <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s3">
-          <b>Scenario</b> Validar credito disponible&nbsp;(1.095s)
+          <b>Scenario</b> Validar credito disponible&nbsp;(1.206s)
         </a>
       
         <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s4">
-          <b>Scenario Outline</b> Validar tipos de valores y colores&nbsp;(31.157s)
+          <b>Scenario Outline</b> Validar tipos de valores y colores&nbsp;(31.285s)
         </a>
       
         <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s5">
-          <b>Scenario Outline</b> Validar tipos de valores y colores&nbsp;(31.177s)
+          <b>Scenario Outline</b> Validar tipos de valores y colores&nbsp;(31.441s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s6">
+          <b>Scenario</b> Validar monto mas alto&nbsp;(1.537s)
+        </a>
+      
+        <a class="collection-item scenario modal-trigger waves-effect waves-light white-text passed" href="#g0f1s7">
+          <b>Scenario</b> Validar monto mas bajo&nbsp;(1.586s)
         </a>
       
     </div>
@@ -1608,7 +2011,39 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
 
 <td class="hide-on-small-only">
   
-      undefined local variable or method `username&#39; for #&lt;Object+Capybara::RSpecMatchers+Capybara::DSLRSpecProxyInstaller+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#&lt;Module:0x000000010e1c8540&gt;+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0xd34&gt; (NameError)
+      undefined local variable or method `username&#39; for #&lt;Object+Capybara::RSpecMatchers+Capybara::DSLRSpecProxyInstaller+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#&lt;Module:0x000000010cb37ee8&gt;+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0xd34&gt; (NameError)
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="failed">
+            <td class="hide-on-small-only">
+  Autenticarse dentro del sistema
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f0s4">
+  Validar contraseña incorrecta
+</td>
+
+<td class="hide">
+  
+      
+          @CP01005. 
+      
+  
+</td>
+
+<td class="uppercase">
+  failed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+      Unable to find css &quot;.alert-warning&quot; (Capybara::ElementNotFound)
   
 </td>
 
@@ -1796,6 +2231,66 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
 
           </tr>
       
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Pagina principal Resumen financiero
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s6">
+  Validar monto mas alto
+</td>
+
+<td class="hide">
+  
+      
+          @CP02006. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
+          
+          <tr class="passed">
+            <td class="hide-on-small-only">
+  Pagina principal Resumen financiero
+</td>
+
+<td class="hoverable modal-trigger white-text" data-target="g0f1s7">
+  Validar monto mas bajo
+</td>
+
+<td class="hide">
+  
+      
+          @CP02007. 
+      
+  
+</td>
+
+<td class="uppercase">
+  passed
+</td>
+
+
+
+<td class="hide-on-small-only">
+  
+</td>
+
+          </tr>
+      
   
   </tbody>
 </table>
@@ -1807,7 +2302,7 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
   
       <li class="error">
   <div class="collapsible-header red lighten-2 white-text waves-effect waves-light">
-    <i class="material-icons">bug_report</i>undefined local variable or method `username&#39; for #&lt;Object+Capybara::RSpecMatchers+Capybara::DSLRSpecProxyInstaller+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#&lt;Module:0x000000010e1c8540&gt;+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0xd34&gt; (NameError)
+    <i class="material-icons">bug_report</i>undefined local variable or method `username&#39; for #&lt;Object+Capybara::RSpecMatchers+Capybara::DSLRSpecProxyInstaller+Capybara::DSL+RSpec::Matchers+Cucumber::Glue::ProtoWorld+#&lt;Module:0x000000010cb37ee8&gt;+JSON::Ext::Generator::GeneratorMethods::Object+Kernel+:0xd34&gt; (NameError)
   </div>
 
   <div class="collapsible-body indigo lighten-4">
@@ -1828,7 +2323,66 @@ features/login.feature:24:in `Yo accedo al sistema colocando el usuario &quot;te
                   
               
           
+              
+                  
+              
+          
       
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+              
+          
+      
+    </div>
+  </div>
+</li>
+
+  
+      <li class="error">
+  <div class="collapsible-header red lighten-2 white-text waves-effect waves-light">
+    <i class="material-icons">bug_report</i>Unable to find css &quot;.alert-warning&quot; (Capybara::ElementNotFound)
+  </div>
+
+  <div class="collapsible-body indigo lighten-4">
+    <div class="collection failedScenarioList">
+      
+          
+              
+          
+              
+          
+              
+          
+              
+                  
+              
+          
+              
+                  
+                      <a class="collection-item failedScenario indigo lighten-5 red-text modal-trigger waves-effect waves-light" href="#g0f0s4">
+                        <i class="material-icons">highlight_off</i>&nbsp;Validar contraseña incorrecta
+                      </a>
+                  
+              
+          
+      
+          
+              
+          
+              
           
               
           

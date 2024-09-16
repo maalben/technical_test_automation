@@ -23,3 +23,9 @@ Feature: Autenticarse dentro del sistema
     Given Yo ingreso al sitio web
     When Yo accedo al sistema colocando el usuario "testuser"
     And Yo deberia encontrar un mensaje con texto "Password must be present"
+
+  @CP01005
+  Scenario: Validar contraseña incorrecta
+    Given Yo ingreso al sitio web
+    When Yo accedo al sistema con usuario "testuser" y password "testuser"
+    And Yo deberia ver el mensaje "Wrong username or password"
